@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/background3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:text="ONESHOP"/>
+
+        <TextView
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:text="Category"/>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/iconmakanan"
+            android:foreground="?android:selectableItemBackground"
+            android:clickable="true"
+            android:onClick="AksiMakanan"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/makanan"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="0dp"/>
+        <ImageView
+            android:id="@+id/iconrumah"
+            android:foreground="?android:selectableItemBackground"
+            android:clickable="true"
+            android:onClick="AksRumah"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/rumahs"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/iconibu"
+            android:foreground="?android:selectableItemBackground"
+            android:clickable="true"
+            android:onClick="AksiIbu"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ibu"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="0dp"/>
+        <ImageView
+            android:id="@+id/iconelektronik"
+            android:foreground="?android:selectableItemBackground"
+            android:clickable="true"
+            android:onClick="AksiKesehatan"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/elektronik"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/iconbaju"
+            android:foreground="?android:selectableItemBackground"
+            android:clickable="true"
+            android:onClick="AksiBaju"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/baju"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="0dp"/>
+        <ImageView
+            android:id="@+id/iconskincare"
+            android:foreground="?android:selectableItemBackground"
+            android:clickable="true"
+            android:onClick="AksiSkincare"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/skincare"/>
+    </LinearLayout>
+
+</LinearLayout>

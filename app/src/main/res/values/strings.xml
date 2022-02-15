@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dashboard Penjualan</string>
+    <string name="makanan_dan_minuman">MAKANAN DAN MINUMAN</string>
+    <string name="rumah_dan_dapur">RUMAH DAN DAPUR</string>
+    <string name="ibu_dan_anak">IBU DAN ANAK</string>
+    <string name="kesehatan_dan_kecantikan">KESEHATAN DAN KECANTIKAN</string>
+    <string name="skincare">SKINCARE</string>
+    <string name="pakaian">PAKAIAN</string>
+    <string name="perabotan_rumah">PERABOTAN RUMAH</string>
+    <string name="kesehatan">KESEHATAN</string>
+    <string name="skincare_dan_make_up">SKINCARE DAN MAKE UP</string>
+    <string name="perabotan_elektronik">PERABOTAN ELEKTRONIK</string>
+    <string name="perabotan_rumah_tangga">PERABOTAN RUMAH TANGGA</string>
+    <string name="fashion_pakaian_terkini">FASHION PAKAIAN TERKINI</string>
+    <string name="kebutuhan_ibu_dan_anak">KEBUTUHAN IBU DAN ANAK</string>
+</resources>
